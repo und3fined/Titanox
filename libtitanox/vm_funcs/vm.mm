@@ -1,5 +1,5 @@
 #include "vm.h"
-#include "utils/utils.h"
+#include "../utils/utils.h"
 #include "mach/message.h"
 
 kern_return_t TotallyNotVM::protect(mach_vm_address_t address, mach_vm_size_t size, boolean_t set_max, vm_prot_t new_prot) {
